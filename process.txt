@@ -1,0 +1,23 @@
+git --version
+
+git init 
+
+git config --list => if not done
+    git config --global user.name "userrr"
+    git config --global user.email
+
+git add . ("adds the files")
+
+git commit -m "initial commit" ("it commits , then saves the changes , then u can see in the history")
+
+after adding the files if u added more files then u want to add files 
+
+git add file-name ("or use .")
+
+after added files u had done some changes then
+    it will show M => modified
+    then 
+        git add . 
+        git commit -m "message"
+        OR 
+        git commit -a -m "message"
