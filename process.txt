@@ -19,5 +19,5 @@ after added files u had done some changes then
     then u need to again add files , then commit it 
         git add . 
         git commit -m "message"
-        OR 
+        OR ELSE
         git commit -a -m "message"
