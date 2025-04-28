@@ -25,4 +25,9 @@ after added files u had done some changes then
 git remote => which current remote repositories are linked to our project
     git remote -v => it shows links of the repositories.
     git remote show origin => it shows branches and other stuff
+
+git push => it will push the code to the repository
+        git push pookie master 
+        pookie is the remote repository name 
+        master is the branch name 
     
